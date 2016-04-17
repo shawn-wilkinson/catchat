@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'catchat'
-  s.version     = '1.0.0'
+  s.version     = '1.0.1'
   s.executables = ["catchat","humanize","catify"]
   s.date        = '2016-04-16'
   s.summary     = "Finally a gem for cats!"
