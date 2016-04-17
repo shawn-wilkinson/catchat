@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'catchat'
+
+case ARGV[0]
+  when nil
+    puts "Humanize Usage Example:"
+    puts "ruby catify 'meow hiss purr'"
+  else
+    puts Cat.humanize(ARGV[0])
+end
